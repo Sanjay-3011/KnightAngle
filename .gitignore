@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# CoppeliaSim scene files (>100MB exceeds GitHub file limit)
+*.ttt
+*.ttt.bak
+
+# Large archives and packages
+*.zip
+*.tar.gz
+
+# IDE and OS artifacts
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Temporary test captures and debug scratch images in root
+# (Clean documentation assets are maintained in docs/assets/)
+test_*.png
+user_*.png
+actual_*.png
+isolated_*.png
+raw_*.png
+sweep_*.png
+stream_*.png
+p[123]_*.png
+current_*.png
+dashboard_*.png
+debug_*.png
+correct_*.png
+verified_*.png
+warp_*.png
+demo_*.png
+live_*.png
+exact_*.png
+fixed_*.png
